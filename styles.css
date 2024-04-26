@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #dfe6ee;
+  margin: 5px 0;
+}
+
+.caixa {
+  background-color: #1e2022;
+}
+
+.navbar {
+  width: 100%;
+  height: 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #dfe6ee;
+}
+
+.caixaLista li {
+  list-style-type: none;
+  
+}
+
+.caixaLista ul {
+  display: flex;
+  gap: 15px;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: auto;
+  text-decoration: none;
+  
+}
+
+.caixaLista ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #1e2022;
+  scroll-behavior: smooth;
+}
+
+.caixaInfo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+
+}
+
+.linha {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 250px;
+  border-radius: 3%;
+  opacity: 0.8;
+  background-color: #dfe6ee;
+  /* padding: 10px; */
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  align-self: flex-end;
+}
+
+.conteudo img {
+  max-width: 50%;
+  max-height: auto;
+  border: 2px solid #dfe6ee;
+  border-radius: 3%;
+  margin-right: 20px;
+}
+
+.conteudo p {
+  margin-right: 20px;
+  padding-top: 5px;
+  flex: 1;
+}
+
+.conteudo h3 {
+  margin-right: 20px;
+  padding-top: 5px;
+  margin: 0;
+}
+
+.botao {
+  background-color: #1e2022;
+  text-decoration: nome;
+  border: none;
+
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 23%;
+  width: 90%;
+}
+
+.botao a {
+  text-decoration: none;
+  color: white;
+}
+
+.caixaChamadaInfo {
+
+  padding-right: 75px;
+  padding-left: 75px;
+  color: #dfe6ee;
+}
+
+.caixaHeadLine {
+  color: #dfe6ee;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.CaixaHL1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.CaixaHL2 {
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+.caixaDev {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 150px;
+  color: #dfe6ee;
+  background-color: #1e2022;
+  font-size: larger;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  padding: 0.5%;
+  color: #dfe6ee;
+  font-size: 1.2rem;
+
+}
+
+.formulario fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  width: 75rem;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  /* margin-bottom: 50px; */
+}
+
+.formulario input {
+  background-color: #1e2022;
+  color: #dfe6ee;
+  font-size: 1.2rem;
+  border: none;
+  border-bottom: 1px solid #dfe6ee;
+  margin-bottom: 5px;
+  outline: none;
+  padding: 3px;
+}
+
+.formulario input:focus {
+  background-color: #dfe6ee;
+  border-radius: 8px;
+  color: #1e2022;
+  padding: 3px;
+}
+
+.fCheckbox {
+  padding-top: 10px;
+}
+
+.fCheckbox label {
+  margin-bottom: 5px;
+  display: block;
+  
+}
+
+.fCheckbox select {
+  background-color: #1e2022;
+  /* Cor de fundo */
+  color: #dfe6ee;
+  /* Cor do texto */
+  font-size: 1.2rem;
+  /* Tamanho da fonte */
+  border-radius: 8px;
+  padding: 5px;
+  /* Espaçamento interno */
+  cursor: pointer;
+  width: 100%;
+  
+}
+
+.formulario button {
+
+  background-color: #dfe6ee;
+  text-decoration: nome;
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 30px;
+  padding: 8px;
+}
+
+.formulario button:focus {
+  background-color: #1e2022;
+  border-radius: 8px;
+  color: #dfe6ee;
+}
+
+.footer{
+  height: 100px;
+  background-color: #dfe6ee;
+}
+
+.rodapeDev{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer p{
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: monospace;
+  color: #1e2022;
+}
+
+.rodapeMidia{
+  background-color: #dfe6ee;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.rodapeMidia img{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
